@@ -43,4 +43,4 @@ This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)**
 ---
 
 ## 📊 Dataset  
-Full dataset (~300 MB) available at: [sumitsingh.info/dataset/vader-reviews]
+Full dataset (~300 MB) available at: [sumitsingh.info/dataset/vader-reviews](https://sumitsingh.info/dataset/vader-reviews)

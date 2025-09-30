@@ -31,7 +31,11 @@ This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)**
 - Data Analysis & Python Programming  
 - Sentiment Analysis with VADER  
 - Data Visualization & Business Intelligence (Tableau)  
-- Translating data into insights for decision-making  
+- Translating data into insights for decision-making
+
+## 📊 Dataset  
+Full dataset (~300 MB) available at: sumitsingh.info/dataset/vader-reviews 
+
 
 ---
 

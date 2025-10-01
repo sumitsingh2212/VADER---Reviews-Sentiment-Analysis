@@ -1,5 +1,3 @@
-# VADER-Reviews-Sentiment-Analysis
-Sentiment analysis made simple: Python-powered VADER + Tableau dashboards
 # VADER Reviews Sentiment Analysis  
 
 This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)** to analyze customer reviews and visualize insights for business decision-making.  
@@ -28,3 +26,10 @@ This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)**
 
 ## Dataset  
 Full dataset (~300 MB) available at: [sumitsingh.info/dataset/vader-reviews](https://sumitsingh.info/dataset/vader-reviews)
+
+---
+
+## In the Repository
+- Python File used to perform VADER Analysis on the dataset
+- SQL File used to aggregate by ProductID and Months and normalise the Compund Sentiment
+- Excel file exported from SQL

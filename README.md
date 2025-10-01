@@ -6,39 +6,23 @@ This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)**
 
 ---
 
-## 🔑 Key Highlights  
-
-### 🐍 Python (VADER Sentiment Analysis)  
-- Preprocessed review dataset  
-- Extracted sentiment scores (Positive, Negative, Neutral, Compound)  
-- Classified reviews into sentiment categories  
-
-### 📊 Tableau (Data Visualization)  
-- Built interactive dashboards for sentiment distribution  
-- Comparative analysis across categories  
-- Identified trends and shifts in customer opinions  
+### Methodology 
+- Step 1 (Python): Performed VADER sentiment analysis on the dataset and created a merged CSV file as an output
+- Step 2 (SQL): Aggregated the data by ProductID and Month for easy processing in Tableau and normalised the Compound sentiment from (-1 to 1) to (1 to 5) for comparison with User Ratings
+- Step 3 (Tableau): Created an interactive dashboard to capture relevant insights
 
 ---
 
-## 💡 Business Value  
-- Converts unstructured text into actionable insights  
-- Helps stakeholders understand customer sentiment at a glance  
-- Bridges technical analysis with clear business storytelling  
-
+## Insights being captured
+- Avg Sentiment vs Avg User Score
+- Review count over time
+- Both the above can be filtered using ProductID
+  
 ---
 
-## 🛠 Skills Demonstrated  
-- Data Analysis & Python Programming  
-- Sentiment Analysis with VADER  
-- Data Visualization & Business Intelligence (Tableau)  
-- Translating data into insights for decision-making
-
----
-
-## 📂 Repository Includes  
-- Python scripts for sentiment analysis  
-- Documentation of the methodology  
-- References to Tableau dashboards  
+## Constraints
+- Top 50 products with the highest review count are considered
+- Reviews after '2006-01-01' are taken into account 
 
 ---
 

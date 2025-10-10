@@ -11,11 +11,17 @@ This project applies **VADER (Valence Aware Dictionary and sEntiment Reasoner)**
 
 ---
 
-## Insights being captured
+## Data being captured
 - Avg Sentiment vs Avg User Score
 - Review count over time
 - Both the above can be filtered using ProductID
-  
+
+---
+
+## Insights gained
+- Weakness - Product lines where the Avg User Score is higher than the Avg Sentiment
+- Opportunity - Product lines where the Avg Sentiment is greater than Avg User Score, here the Avg User score could go one point higher by making a few changes
+
 ---
 
 ## Constraints
